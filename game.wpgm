@@ -5,7 +5,10 @@ import config
 
 program farmville {
 	//  CONFIG	
-	
+	game.title("FarmVille")
+    game.height(10)
+	game.width(10)
+	game.ground("ground.png")
 
 	//  VISUALES
  	game.addVisualCharacter(hector)
