@@ -5,6 +5,9 @@ import config.*
 
 program farmville {
 	//  CONFIG	
+	// ,,,
+
+
 	
 	iniciar.inicializador()
 	//  VISUALES
