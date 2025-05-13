@@ -1,16 +1,18 @@
 import wollok.game.*
 import hector.*
 import cultivos.*
-import config
+import config.*
 
 program farmville {
 	//  CONFIG	
 	// ,,,
 
+
+	
+	iniciar.inicializador()
 	//  VISUALES
  	game.addVisualCharacter(hector)
- 	game.addVisual(new Maiz(position=game.at(1, 1)))
- 	
+ 	game.addVisual(new Maiz(position=game.at(1, 1))) 	
  	//  COMIENZA
 	game.start()
 }
