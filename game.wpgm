@@ -5,7 +5,7 @@ import config
 
 program farmville {
 	//  CONFIG	
-	
+	// ,,,
 
 	//  VISUALES
  	game.addVisualCharacter(hector)
