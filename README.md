@@ -1,5 +1,5 @@
 #  Granjavilla
-
+## codigo para correr juego: wollok run -g --port 4200 game.farmville --skipValidations --verbose -p `pwd`
 ## Introducción
 
 Héctor es un granjero que se gana la vida cultivando plantas de distintas especies. Para ello tiene que **sembrar, regar y cosechar** sus cultivos. Después de la cosecha, **vende lo que cultivó**, obteniendo ganancias en forma de **monedas de oro**. Héctor es muy ahorrativo: todo el oro que obtiene lo acumula.
