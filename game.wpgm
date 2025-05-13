@@ -5,14 +5,11 @@ import config
 
 program farmville {
 	//  CONFIG	
-	game.title("FarmVille")
-    game.height(10)
-	game.width(10)
-	game.ground("ground.png")
+	
 
 	//  VISUALES
  	game.addVisualCharacter(hector)
- //	game.addVisualIn(new Maiz(), game.at(1, 1))
+ 	game.addVisual(new Maiz(position=game.at(1, 1)))
  	
  	//  COMIENZA
 	game.start()
