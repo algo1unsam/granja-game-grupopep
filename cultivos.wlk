@@ -8,8 +8,6 @@ class Cultivos {
 
 class Maiz inherits Cultivos{
 	override method image() = "corn_baby.png"
-
-	holanda
 	
 }
 class Trigo inherits Cultivos{
