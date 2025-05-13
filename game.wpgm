@@ -9,9 +9,12 @@ program farmville {
 	iniciar.inicializador()
 	//  VISUALES
  	game.addVisualCharacter(hector)
- 	game.addVisual(new Maiz(position=game.at(1, 1))) 	
+	
+	game.addVisual(new Maiz(position=game.at(1, 1))) 	
  	//  COMIENZA
-	game.addVisual(new Trigo(position=game.at(3,3)))
+ 	game.addVisual(new Trigo(position=game.at(3,3)))
+	game.addVisual(new Tomate(position=game.at(5,7)))
+
 	game.start()
 
 
