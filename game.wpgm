@@ -9,8 +9,7 @@ program farmville {
 
 	//  VISUALES
  	game.addVisualCharacter(hector)
- 	game.addVisual(new Maiz(position=game.at(1, 1)))
- 	
+ 	game.addVisual(new Maiz(position=game.at(1, 1))) 	
  	//  COMIENZA
 	game.start()
 }
